@@ -1,0 +1,66 @@
+.task-container {
+    width: 80%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-left:500px;
+    
+}
+
+.task-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th, .task-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.task-input, .task-select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-button.save {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.task-button.cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+.task-button.edit {
+    background-color: #008CBA;
+    color: white;
+}
+
+.task-button.delete {
+    background-color: #e91e63;
+    color: white;
+}

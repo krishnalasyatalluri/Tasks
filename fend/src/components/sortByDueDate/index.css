@@ -1,0 +1,27 @@
+.sort-controls {
+    margin-bottom: 20px;
+}
+
+.sort-controls label {
+    margin-right: 10px;
+}
+
+.sort-controls select {
+    padding: 5px;
+    width: 600px;
+}
+
+.tasks-table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+.tasks-table th, .tasks-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tasks-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
